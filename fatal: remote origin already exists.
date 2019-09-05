@@ -1,0 +1,12 @@
+问题如下：
+lenovo@DESKTOP-F6CNQ2E MINGW64 ~/Desktop/study-github (master)
+$ git remote add origin git@github.com:lyn1230/lyn1230.git
+fatal: remote origin already exists.
+
+只要两步：
+
+1、先删除
+
+1
+$ git remote rm origin
+2、再次执行添加就可以了。　　
